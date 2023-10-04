@@ -1,0 +1,37 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* 
+@media screen and (max-width: 1000px){
+} */
+
+body{
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    background-color: black;
+    height: 625px;
+    width: 1520px;
+    border-radius: 30px;
+}
+
+.obj{
+    height: 50px;
+    color: purple;
+}
+
+.btn-purple{
+    background-color: purple;
+    color: black;
+}
+
+.inp{
+    width: 300px;
+}
